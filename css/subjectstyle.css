@@ -1,0 +1,176 @@
+body{
+  font-family: tahoma, verdana;
+}
+
+/* //////content///////// */
+
+.maintitle{
+  text-align: center;
+  font-size: 2.3vw;
+  color: black;
+  text-transform: uppercase;
+}
+.intro p{
+  text-align: center;
+  font-size: 1vw;
+  margin-bottom: 5px;
+  color: black;
+  text-transform: uppercase;
+}
+.information{
+  width: 85%;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* background: lightgrey; */
+}
+.information h2{
+  font-size: 1.5vw;
+  color: black;
+  text-transform: uppercase;
+}
+.information p{
+  text-align: justify;
+  font-size: 1vw;
+  color: black;
+}
+.subtitle{
+  text-align: center;
+  font-size: 1.5vw;
+  color: black;
+  text-transform: uppercase;
+}
+.baralevel{
+  background: #27AE60;
+  width: 100%;
+  height: 10px;
+}
+.baralevel2{
+  background: #27AE60;
+  width: 100%;
+  height: 5px;
+}
+.bargcse{
+  background: #F39C12;
+  width: 100%;
+  height: 10px;
+}
+
+.table{
+  width: 100%;
+  display: table;
+}
+
+.tablecaption{
+  width: 100%;
+  display: table-caption;
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+.tableheader{
+  display: table-header-group;
+  background-color: white;
+  font-weight: bold;
+  font-size: 1vw;
+
+}
+.tableheadercell{
+  display: table-cell;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+.tablecontent{
+  display: table-row-group;
+}
+.tablerow{
+  display: table-row;
+}
+.tablerowcell{
+  display: table-cell;
+  padding: 10px;
+  border-right: 1px solid black;
+}
+
+
+@media screen and (max-width:1150px){
+
+  .maintitle{
+    font-size: 2.5vw;
+  }
+  .intro p{
+    font-size: 1.4vw;
+  }
+  .information h2{
+    font-size: 2vw;
+  }
+  .information p{
+    font-size: 1.4vw;
+  }
+  .subtitle{
+    font-size: 2vw;
+  }
+
+}
+
+
+@media screen and (max-width:700px){
+
+ /* ///////content///// */
+ .maintitle{
+   font-size: 3.3vw;
+ }
+ .intro p{
+   font-size: 1.7vw;
+ }
+ .information h2{
+   font-size: 2.6vw;
+ }
+ .information p{
+   font-size: 1.7vw;
+   margin-bottom: 5px;
+ }
+ .subtitle{
+   font-size: 2.6vw;
+ }
+  .information{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .baralevel{
+    height: 5px;
+  }
+  .baralevel2{
+    height: 2px;
+  }
+  .bargcse{
+    height: 5px;
+  }
+
+}
+
+@media screen and (max-width:500px){
+
+  .maintitle{
+    font-size: 3.3vw;
+  }
+  .intro p{
+    font-size: 1.9vw;
+  }
+  .subtitle{
+    font-size: 2.8vw;
+  }
+  .information h2{
+    font-size: 2.8vw;
+  }
+  .information p{
+    font-size: 1.9vw;
+  }
+  .names{
+    font-size: 3vw;
+  }
+
+}

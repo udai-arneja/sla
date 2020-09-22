@@ -1,0 +1,121 @@
+body{
+  font-family: tahoma, verdana;
+}
+
+.maintitle{
+  text-align: center;
+  font-size: 2.3vw;
+  color: black;
+  text-transform: uppercase;
+}
+
+/* /////CONTENT////// */
+
+.section{
+  width: 85%;
+  margin: 0px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.section h1{
+  text-align: left;
+  font-size: 1.3vw;
+  text-transform: uppercase;
+  color: black;
+}
+.section p{
+  text-align: justify;
+  color: black;
+  font-size: 1vw;
+}
+.subtitle{
+  margin: 0px auto;
+  font-size: 1.5vw;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+.intro{
+  font-size: 1.3vw;
+  text-align: justify;
+  color: black;
+}
+.TextWrap{
+  width: 25%;
+  float: right;
+  margin: 20px;
+}
+.top{
+  text-align: center;
+}
+.top a{
+  color: black;
+  font-size: 1vw;
+}
+
+
+@media screen and (max-width:1150px){
+
+  .maintitle{
+    font-size: 3.3vw;
+  }
+  .TextWrap{
+    width: 20%;
+    margin-top: 0px;
+  }
+  .intro p{
+    font-size: 1.4vw;
+  }
+  .subtitle{
+    font-size: 2vw;
+  }
+  .section h1{
+    font-size: 1.7vw;
+  }
+  .section p{
+    font-size: 1.4vw;
+  }
+
+}
+
+@media screen and (max-width:700px){
+
+  /* ///////// ABOUT //////// */
+
+  .maintitle{
+    font-size: 4vw;
+  }
+  .options-wrapper{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .option{
+    font-size: 2vw;
+  }
+  .top a{
+    font-size: 1.7vw;
+  }
+  .TextWrap{
+    width: 30%;
+  }
+
+  .intro p{
+    font-size: 1.7vw;
+    margin-bottom: 5px;
+  }
+  .subtitle{
+    padding-top: 5px;
+    font-size: 2.6vw;
+  }
+  .section{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .section h1{
+    font-size: 2.2vw;
+  }
+  .section p{
+    font-size: 1.7vw;
+  }
+
+}

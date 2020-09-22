@@ -1,0 +1,163 @@
+body{
+  font-family: tahoma, verdana;
+}
+
+/* /////////slideshow/////// */
+
+.slideshowcontainer-wrapper{
+  padding: 20px 0px;
+}
+.slideshowcontainer {
+  width: 50%;
+  margin: 0px auto;
+  position: relative;
+}
+
+.slideshow-sub {
+  width: 85%;
+  height: 300px;
+  margin: 0px auto;
+  display: none;
+}
+
+.slideshow-sub img{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slideshow-text{
+  width: 85%;
+  position: absolute;
+  top: 110px;
+  text-align: center;
+  padding: 40px 40px;
+  background-color: hsla(240, 100%, 0%, 0.5);
+}
+
+.slideshow-text p{
+  text-align: center;
+  align-items: center;
+  margin: 0px;
+  opacity: 1;
+  color: white;
+  font-size: 1.2vw;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.slideshow-prev,
+.slideshow-next {
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px 5px 5px 5px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.slideshow-next {
+  right: 0;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.slideshow-prev:hover,
+.slideshow-next:hover {
+  background-color: grey;
+  opacity: 0.5;
+}
+
+.slideshow-numbertext {
+  color: #f2f2f2;
+  font-size: 1vw;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+@media screen and (max-width:1150px){
+
+  .slideshow-sub {
+    height: 250px;
+  }
+  .slideshow-numbertext {
+    font-size: 1.3vw;
+  }
+  .slideshow-text{
+    width: 85%;
+    top: 80px;
+    padding: 40px 40px;
+  }
+  .slideshow-text p{
+    font-size: 1.4vw;
+  }
+}
+
+@media screen and (max-width:900px){
+
+  .slideshowcontainer {
+    width: 60%;
+  }
+  .slideshow-sub {
+    width: 85%;
+    height: 200px;
+  }
+  .slideshow-text{
+    top: 60px;
+    padding: 30px 30px;
+  }
+  .slideshow-text p{
+    font-size: 1.4vw;
+  }
+
+}
+
+@media screen and (max-width:700px){
+
+  .slideshowcontainer-wrapper{
+    padding: 10px 0px;
+  }
+  .slideshowcontainer {
+    width: 85%;
+  }
+  .slideshow-sub {
+    width: 80%;
+    height: 200px;
+  }
+  .slideshow-numbertext {
+    font-size: 1.3vw;
+  }
+  .slideshow-text{
+    width: 80%;
+    top: 60px;
+    padding: 30px 30px;
+  }
+  .slideshow-text p{
+    font-size: 1.6vw;
+  }
+
+}
+
+@media screen and (max-width:500px){
+
+  .slideshowcontainer {
+    width: 90%;
+  }
+  .slideshow-sub {
+    width: 80%;
+    height: 170px;
+  }
+  .slideshow-text{
+    width: 80%;
+    top: 60px;
+    padding: 25px 25px;
+  }
+  .slideshow-text p{
+    font-size: 2vw;
+  }
+
+}

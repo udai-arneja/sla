@@ -1,0 +1,219 @@
+body{
+  font-family: tahoma, verdana;
+}
+
+.maintitle{
+  text-align: center;
+  font-size: 2.3vw;
+  color: black;
+  text-transform: uppercase;
+}
+.intro{
+  text-align: center;
+  font-size: 1vw;
+  margin-bottom: 5px;
+}
+.section{
+  width: 85%;
+  margin: 0px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.section h1{
+  text-align: center;
+  font-size: 1.3vw;
+  text-transform: uppercase;
+  color: black;
+}
+.section p{
+  text-align: justify;
+  color: black;
+  font-size: 1vw;
+}
+.biocontent{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.bio-text{
+  width: 90%;
+  margin: 0px auto;
+}
+.bio-text h1{
+  text-align:center;
+  font-size: 1.3vw;
+  color: black;
+  text-transform: uppercase;
+}
+.bio-text p{
+  text-align:justify;
+  font-size: 1vw;
+  margin-bottom: 5px;
+  color: black;
+}
+.bio-image{
+    width: 70%;
+    height: 70%;
+    margin: 0px auto;
+}
+.bio-image img{
+  padding-right: 10px;
+  padding-top: 20px;
+}
+.bio-history{
+  width: 93%;
+  margin: 0px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.textwrap{
+  width: 25%;
+  float: right;
+  margin: 20px;
+}
+.bio-history h1{
+  text-align:center;
+  font-size: 1.3vw;
+  color: black;
+  text-transform: uppercase;
+}
+.bio-history p{
+  text-align:justify;
+  font-size: 1vw;
+  margin-bottom: 5px;
+  color: black;
+}
+.bio-reviews{
+  width: 95%;
+  margin: 0px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.bio-reviews h1{
+  text-align:center;
+  font-size: 1.3vw;
+  color: black;
+  text-transform: uppercase;
+}
+.bio-reviews p{
+  text-align:justify;
+  font-size: 1vw;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.subtitle{
+  text-align:center;
+  font-size: 1.3vw;
+}
+
+.p-courses{
+  width: 60%;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding-bottom: 10px;
+}
+.d-courses{
+  width: 40%;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+@media screen and (max-width:1150px){
+
+  .maintitle{
+    font-size: 2.5vw;
+  }
+  .bio-text p{
+    font-size: 1.4vw;
+  }
+  .bio-reviews p{
+    font-size: 1.4vw;
+  }
+  .bio-text h1{
+    font-size: 1.7vw;
+  }
+  .bio-text p{
+    font-size: 1.4vw;
+  }
+  .bio-history h1{
+    font-size: 1.7vw;
+  }
+  .bio-history p{
+    font-size: 1.4vw;
+  }
+  .bio-reviews h1{
+    font-size: 1.7vw;
+  }
+  .bio-reviews p{
+    font-size: 1.4vw;
+  }
+  .subtitle{
+    font-size: 1.7vw;
+  }
+  .bio-image{
+      width: 90%;
+      height: 90%;
+      margin: 0px auto;
+  }
+
+}
+
+@media screen and (max-width:700px){
+
+  /* ///////CONTENT/////// */
+  .maintitle{
+    font-size: 3.3vw;
+   }
+  .biocontent{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .biocontent p{
+    margin-bottom: 0px;
+  }
+  .bio-reviews{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .bio-text p{
+    font-size: 1.7vw;
+  }
+  .bio-reviews p{
+    font-size: 1.7vw;
+  }
+  .bio-text h1{
+    font-size: 2.2vw;
+  }
+  .bio-text p{
+    font-size: 1.7vw;
+  }
+  .bio-history h1{
+    font-size: 2.2vw;
+  }
+  .bio-history p{
+    font-size: 1.7vw;
+  }
+  .bio-reviews h1{
+    font-size: 2.2vw;
+    margin-bottom: 0px;
+  }
+  .bio-reviews p{
+    font-size: 1.7vw;
+  }
+  .subtitle{
+    font-size: 2.2vw;
+  }
+
+}

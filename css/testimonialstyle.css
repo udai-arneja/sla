@@ -1,0 +1,92 @@
+body{
+  font-family: tahoma, verdana;
+}
+
+.maintitle{
+  text-align: center;
+  font-size: 2.3vw;
+  color: black;
+  text-transform: uppercase;
+}
+.subtitle{
+  margin: 0px auto;
+  font-size: 1.5vw;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section{
+  width: 85%;
+  margin: 0px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.section h1{
+  text-align: left;
+  font-size: 1.3vw;
+  text-transform: uppercase;
+  color: black;
+}
+.section p{
+  text-align: justify;
+  color: black;
+  font-size: 1vw;
+  margin: 0px;
+}
+.testimonial-wrapper{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.testimonial-left{
+  width: 80%;
+  margin:0px auto;
+  background: #6869BC;
+  padding: 20px 20px;
+  border-radius: 9px;
+  color: white;
+}
+.testimonial-right{
+  width: 80%;
+  margin:0px auto;
+  background-color: #E0C7FB;
+  padding: 20px 20px;
+  border-radius: 9px;
+}
+
+@media screen and (max-width:1150px){
+
+  .maintitle{
+    font-size: 2.5vw;
+  }
+  .subtitle{
+    font-size: 2vw;
+  }
+  .section h1{
+    font-size: 1.7vw;
+  }
+  .section p{
+    font-size: 1.4vw;
+  }
+
+}
+
+@media screen and (max-width:700px){
+
+  .maintitle{
+    font-size: 3.3vw;
+  }
+  .subtitle{
+    font-size: 2.6vw;
+  }
+  .section{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .section h1{
+    font-size: 2.2vw;
+  }
+  .section p{
+    font-size: 1.7vw;
+  }
+
+}

@@ -1,0 +1,139 @@
+
+.mobile-view { display: none; }
+
+
+body{
+  font-family: tahoma, verdana;
+}
+
+.maintitle{
+  text-align: center;
+  font-size: 2.3vw;
+  color: black;
+  text-transform: uppercase;
+}
+
+.intro{
+  text-align: justify;
+  font-size: 1.3vw;
+}
+
+.profiles-wrapper{
+  width: 95%;
+  margin: 0px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.profile-wrapper{
+  padding-bottom: 10px;
+}
+
+.profile{
+  padding: 20px 20px;
+  background-color: #6d33a6;
+  position: relative;
+  border-radius: 6px;
+  color: white;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  align-items: center;
+}
+
+.profile a{
+  color: white;
+}
+
+.name{
+  font-size: 2vw;
+  text-align: center;
+}
+.profile-intro{
+  width: 95%;
+  margin: 0px auto;
+  font-size: 1vw;
+  text-align: justify;
+}
+.profile-intro h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1vw;
+}
+.readmore{
+  font-size: 0.7vw;
+  text-align: center;
+}
+
+
+@media screen and (max-width:1150px){
+
+  /* ///////// TUTORS //////// */
+
+  .maintitle{
+    font-size: 3.3vw;
+  }
+  .profile-intro{
+    font-size: 1.4vw;
+  }
+  .profile-intro h2{
+    font-size: 1.4vw;
+  }
+  .readmore{
+    font-size: 1.2vw;
+  }
+
+}
+
+@media screen and (max-width:700px){
+  .full-text { display: none; }
+  .mobile-view{display: inline-block;}
+  /* ///////// TUTORS //////// */
+  .maintitle{
+    font-size: 4vw;
+  }
+  .bar2{
+    height: 5px;
+  }
+  .intro{
+    font-size: 2vw;
+  }
+  .profile{
+    padding: 10px 10px;
+    border-radius: 6px;
+    grid-template-columns: 1fr;
+  }
+  .sidebyside{
+    width: 95%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1.3fr 1.5fr;
+    align-items: center;
+    /* text-align: center; */
+    padding-bottom: 5px;
+  }
+  .name{
+    font-size: 3vw;
+    text-align: right;
+  }
+  .name2{
+    font-size: 3vw;
+    text-align: center;
+  }
+  .profile-intro{
+    font-size: 1.8vw;
+  }
+  .profile-intro h2{
+    text-align: right;
+    font-size: 1.8vw;
+  }
+  .readmore{
+    font-size: 1.4vw;
+  }
+  .image{
+    width: 100%;
+  }
+  .image img{
+    width: 60%;
+    float: right;
+  }
+
+}

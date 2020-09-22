@@ -1,0 +1,95 @@
+body{
+  font-family: tahoma, verdana;
+}
+
+.maintitle{
+  text-align: center;
+  font-size: 2.3vw;
+  color: black;
+  text-transform: uppercase;
+}
+
+.principal-content-wrapper{
+  width: 100%;
+  margin: 0px auto;
+  padding-top:10px;
+  padding-bottom:10px ;
+}
+.principal-content{
+  width: 85%;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1.5fr 4fr;
+}
+.principal-image{
+
+}
+.principal-image-background1{
+  background-color: purple;
+  width: 100%;
+  height: 20px;
+  opacity: 0.7;
+}
+.principal-image-background{
+  background-color: purple;
+  width: 100%;
+  height: 370px;
+  opacity: 0.7;
+}
+.principal-text{
+  font-size: 1vw;
+  width: 100%;
+  padding-left: 30px;
+  text-align: justify;
+  color: black;
+}
+
+
+@media screen and (max-width:1150px){
+
+  .maintitle{
+    font-size: 2.2vw;
+  }
+  .principal-text{
+    font-size: 1.4vw;
+    padding-left: 30px;
+  }
+  .principal-content-wrapper{
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:700px){
+  .maintitle{
+    font-size: 3.3vw;
+   }
+   .principal-text{
+     font-size: 1.7vw;
+     padding-left: 10px;
+   }
+   .principal-text p{
+     margin: 8px;
+   }
+   .principal-image-background{
+     height: 370px;
+   }
+}
+@media screen and (max-width:500px){
+  .maintitle{
+    font-size: 3.3vw;
+   }
+   .principal-text{
+     font-size: 1.9vw;
+     padding-left: 10px;
+   }
+   .principal-text p{
+     margin: 8px;
+   }
+
+}
+@media screen and (max-width:400px){
+   .principal-image-background{
+     height: 310px;
+   }
+}
