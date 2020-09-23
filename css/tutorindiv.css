@@ -108,18 +108,23 @@ body{
   font-size: 1.3vw;
 }
 
+.courseoptions{
+  text-align:center;
+  font-size: 1vw;
+}
+
 .p-courses{
-  width: 60%;
+  width: 90%;
   margin: 0px auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   padding-bottom: 10px;
 }
 .d-courses{
-  width: 40%;
+  width: 90%;
   margin: 0px auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   padding-bottom: 10px;
 }
 
