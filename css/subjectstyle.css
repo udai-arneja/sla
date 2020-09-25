@@ -56,6 +56,11 @@ body{
   width: 100%;
   height: 10px;
 }
+.bargcse2{
+  background: #F39C12;
+  width: 100%;
+  height: 5px;
+}
 
 .bartuition{
   background: #9B59B6;
@@ -72,18 +77,20 @@ body{
 .table{
   width: 100%;
   display: table;
+  text-align: center;
 }
 
 .tablecaption{
   width: 100%;
   display: table-caption;
-  text-align: center;
+  /* text-align: center; */
   font-size: 1.5vw;
   font-weight: bold;
 }
 .tableheader{
   display: table-header-group;
   background-color: white;
+  /* text-align: center; */
   font-weight: bold;
   font-size: 1vw;
 
@@ -91,19 +98,34 @@ body{
 .tableheadercell{
   display: table-cell;
   padding: 10px;
-  text-align: center;
+  /* text-align: center; */
   border-bottom: 1px solid black;
   border-right: 1px solid black;
 }
 .tablecontent{
   display: table-row-group;
+  /* text-align: center; */
 }
 .tablerow{
   display: table-row;
+  /* text-align: center; */
 }
 .tablerowcell{
   display: table-cell;
   padding: 10px;
+  /* text-align: center; */
+  border-right: 1px solid black;
+}
+.tablerowcell2{
+  display: table-cell;
+  padding: 10px;
+  padding-bottom: 0px;
+  border-right: 1px solid black;
+}
+.tablerowcell3{
+  display: table-cell;
+  padding: 10px;
+  padding-top: 0px;
   border-right: 1px solid black;
 }
 
@@ -160,6 +182,15 @@ body{
   }
   .bargcse{
     height: 5px;
+  }
+  .bargcse2{
+    height: 2px;
+  }
+  .bartuition{
+    height: 5px;
+  }
+  .bartuition2{
+    height: 2px;
   }
 
 }
