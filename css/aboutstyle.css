@@ -23,6 +23,12 @@ body{
   text-transform: uppercase;
   color: black;
 }
+.section h2{
+  text-align: left;
+  font-size: 1vw;
+  text-transform: uppercase;
+  color: black;
+}
 .section p{
   text-align: justify;
   color: black;
@@ -44,11 +50,13 @@ body{
   width: 25%;
   float: right;
   margin: 20px;
+  margin-right: 0px;
 }
 .textwrapl{
   width: 25%;
   float: left;
   margin: 20px;
+  margin-left: 0px;
 }
 .top{
   text-align: center;
@@ -57,6 +65,22 @@ body{
   color: black;
   font-size: 1vw;
 }
+
+.info-2{
+  display: none;
+}
+.triangle{
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 12px solid green;
+  display: block;
+  padding-right: 4px;
+  padding-top: 1px;
+}
+
+.info-1:hover .info-2 {display: block;}
 
 
 @media screen and (max-width:1150px){
@@ -77,9 +101,13 @@ body{
   .section h1{
     font-size: 1.7vw;
   }
+  .section h2{
+    font-size: 1.4vw;
+  }
   .section p{
     font-size: 1.4vw;
   }
+
 
 }
 
@@ -119,8 +147,21 @@ body{
   .section h1{
     font-size: 2.2vw;
   }
+  .section h2{
+    font-size: 1.7vw;
+  }
   .section p{
     font-size: 1.7vw;
+  }
+  .triangle{
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid green;
+    display: block;
+    padding-right: 4px;
+    padding-top: 0px;
   }
 
 }
